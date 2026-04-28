@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Prepare local models for Anaconda AI Navigator (a.k.a. "AI Studio").
+Prepare local models for Anaconda AI Navigator.
 
 AI Navigator only displays models that are registered in its LokiJS database
 (`ailauncher.db`). It does NOT scan the filesystem for local GGUFs on its own.
