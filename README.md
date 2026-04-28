@@ -5,3 +5,5 @@ Its default run scans <your model directory>, recognizes LM Studio/Ollama/GPT4al
 With extra flags, it can also migrate HF cache models, validate model integrity, flatten long model names into short local names, remove partial downloads, and delete duplicates.
 
 The biggest operational risk is –dedupe. The second biggest is –cleanup-hf-source. The third is normal non-dry-run structure fixing, because it moves files.
+
+There is also a scipt to help hardheaded opensource models write code locally to disk. 
